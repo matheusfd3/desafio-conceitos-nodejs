@@ -12,3 +12,18 @@ listagem, atualização e remoção dos repositórios, e além disso permitir qu
 * **[DELETE] /repositories/:id**: A rota deve deletar o repositório com o ```id``` presente nos parâmetros da rota;
 
 * **[POST] /repositories/:id/like**: A rota deve aumentar o número de likes do repositório específico escolhido através do ```id``` presente nos parâmetros da rota, a cada chamada dessa rota, o número de likes deve ser aumentado em 1;
+## Primeiro Acesso
+### Clonando o projeto
+```
+$ git clone https://github.com/matheusfd3/desafio-conceitos-nodejs.git
+```
+### Baixando as dependências
+Na pasta do projeto execute o comando abaixo com o [Yarn](https://yarnpkg.com/lang/pt-br/).
+```
+$ yarn install
+```
+### Rodando no localhost
+Para conseguir testar as rotas POST, PUT e DELETE recomendo utilizar o [Insomnia](https://insomnia.rest).
+```
+$ yarn dev
+```
