@@ -27,3 +27,4 @@ Para conseguir testar as rotas POST, PUT e DELETE recomendo utilizar o [Insomnia
 ```
 $ yarn dev
 ```
+Acesse [http://localhost:3333/repositories](http://localhost:3333/repositories).
